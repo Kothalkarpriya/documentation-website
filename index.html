@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://component-library-priya.netlify.app/style.css">
+</head>
+<body> 
+    <div class="pagewrap">
+        <header class="header">Documentation</header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#avatar" class="nav-item">Avatar</a></li>
+                <li><a href="#alert" class="nav-item">Alert</a></li>
+                <li><a href="#badge" class="nav-item">Badge</a></li>
+                <li><a href="#button" class="nav-item">Button</a></li>
+                <li><a href="#card" class="nav-item">Card</a></li>
+                <li><a href="#image" class="nav-item">Image</a></li>
+                <li><a href="#input" class="nav-item">Input</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- ---avatar component---- -->
+            <section class="section" id="avatar">
+                <header class="section-header">Avatar</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="avatar-container">
+                        <div class="text-badge">Default Avatar</div>
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93b271e1df40015379416"
+                                style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="avatar-container">
+                        <div class="text-badge">Circular Avatar</div>
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image round-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93b7b1e1df40015379417"
+                                style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="avatar-container">
+                        <div class="text-badge">Avatar with border</div>
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image border-image" />
+                                <img src="image.jpg" alt="sunset" class="avatar-image round-image border-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93be41e1df40015379418"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----------alert component------ -->
+            <section class="section" id="alert">
+                <header class="section-header">Alert</header>
+                <article class="container-info">
+                    <div class="info">
+                        Provide contextual feedback message for typical user actions with the handful of available and flexible alert messages. We have different alert types as specified below.
+                    </div>
+                    <div class="alert-container">
+                        <div class="text-badge">Primary Alert</div>
+                        <div class="alert">
+                            <p class="msg-alert">
+                                <i class="material-icons">done</i>
+                                Thank You
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94b731e1df4001537942b"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="alert-container">
+                        <div class="text-badge">Success Alert</div>
+                        <div class="alert">
+                            <p class="msg-alert success">
+                                <i class="material-icons">done</i>
+                                Apps Updated
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94bba1e1df4001537942c"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="alert-container">
+                        <div class="text-badge">Warning Alert</div>
+                        <div class="alert">
+                            <p class="msg-alert danger">
+                                <i class="material-icons">warning</i>
+                                Action can not be Undone
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94c271e1df4001537942d"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="alert-container">
+                        <div class="text-badge">Error Alert</div>
+                        <div class="alert">
+                            <p class="msg-alert error">
+                                <i class="material-icons ">error</i>
+                                Check your network connection
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94c5a1e1df4001537942e"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ------badge component----------- -->
+            <section class="section" id="badge">
+                <header class="section-header">Badge</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="badge-container">
+                        <div class="text-badge">
+                            Badge on Icons :
+                        </div>
+                        <div class="badge">
+                            <i class="fa fa-home">
+                                <span class="badge-on-icon">5</span>
+                            </i>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f69bd62df3d500153fb58d"
+                                style="width: 100%; height: 203px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="badge-container">
+                        <div class="text-badge">
+                            Badge on Avatars :</div>
+                        <div class="badge">
+                            <span class="avatar-img">
+                                <img src="avtar.jpg" alt="Avatar" class="avatar-img" />
+                                <span class="badge-on-avatar">10</span>
+                            </span>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f793d9b50e540015bbadda"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            
+            <!-- ----button component------ -->
+            <section class="section" id="button">
+                <header class="section-header">Button</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="button-container">
+                        <div class="text-badge">Simple Button: use class <em>btn</em> </div>
+                        <div class="button">
+                            <button type="submit" class="btn">Simple Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a31ab50e540015bbadfa"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <div class="text-badge">
+                            Primary Button: use class <em> primary-btn</em>.
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="btn primary-btn">Primary Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a362b50e540015bbadfb"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <div class="text-badge">
+                            Link Button: use class <em>link-btn</em>.
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="btn link-btn"><a href="#" class="link-btn" alt="button">Link
+                                    Button</a></button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a38fb50e540015bbadfc"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <div class="text-badge">
+                            Icon with Button: use class <em>icon-btn </em>.
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="btn icon-btn">Icon Button <i class="material-icons">
+                                    send</i></button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a3ddb50e540015bbadfd"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <div class="text-badge">
+                            Floating Action Button: use class <em>float-btn</em>.
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="btn float-btn">Float Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a42ab50e540015bbadff"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ---card component---- -->
+            <section class="section" id="card">
+                <header class="section-header">Card</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="card-container">
+                        <div class="text-badge">Default Card</div>
+                        <div class="card">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7c8b2b50e540015bbae40"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="text-badge">Card with Badge</div>
+                        <div class="card">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <div class="img-badge">Featured</div>
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f80a9ab50e540015bbae75"
+                                style="width: 100%; height: 476px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="text-badge">Card with text Overlay</div>
+                        <div class="card">
+                            <div class="container">
+                                <div class="image img-text">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <div class="text text-overlay">
+                                        <h2>Sunset In Aurangabad</h2>
+                                        sub-heading
+                                    </div>
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f80d28b50e540015bbae77"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="text-badge">Text only Card </div>
+                        <div class="card">
+                            <div class="container text-only">
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f81228b50e540015bbae79"
+                                style="width: 100%; height: 424px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="text-badge">Horizontal Card</div>
+                        <div class="card">
+                            <div class="container-horizon">
+                                <div class="oneside">
+                                    <div class="image">
+                                        <img src="image.jpg" alt="sunset-and-glass-mug" class="img-horizon" />
+                                    </div>
+                                    <div class="text-horizon">
+                                        <h3>Sunset In Aurangabad</h3>
+                                        sub-heading
+                                    </div>
+                                </div>
+                                <div class="other-side">
+                                    <div class="card-buttons">
+                                        <div class="card-btn">
+                                            <button type="submit" class="btn card-btn-items">
+                                                READ
+                                            </button>
+                                            <button type="submit" class="btn card-btn-items">
+                                                BOOKMARK
+                                            </button>
+                                        </div>
+                                        <div class="card-icons">
+                                            <i class="fa fa-heart-o"></i>
+                                            <i class="fa fa-share-alt"></i>
+                                            <i class="fa fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f818e6b50e540015bbae7d"
+                                style="width: 100%; height: 476px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="card-container ">
+                        <div class="text-badge">Card with Shadow</div>
+                        <div class="card shadow-cont">
+                            <div class="container ">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f81e54b50e540015bbae82"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ---image component------ -->
+            <section class="section" id="image">
+                <header class="section-header">Image</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="image-container">
+                        <div class="text-badge">Responsive Image</div>
+                        <div class="image-feature">
+                            <img src="image.jpg" alt="sunset" class="img-feat">
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa1afab783be0015bbae19"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <div class="text-badge">Round Image</div>
+                        <div class="image-feature">
+                            <img src="image.jpg" alt="sunset" class="img-feat img-round">
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa1b28b783be0015bbae1a"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- --input component------ -->
+            <section class="section" id="input">
+                <header class="section-header">Input</header>
+                <article class="container-info">
+                    <div class="info"></div>
+                    <div class="input-container">
+                        <div class="text-badge">Textbox </div>
+                        <div class="input-block">
+                            <input class="input-ele" placeholder="Enter your name" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa740fb783be0015bbae98"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="text-badge">Input for password</div>
+                        <div class="input-block">
+                            <input type="password" class="input-ele" placeholder="Enter Password" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa746db783be0015bbae99"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="text-badge">Input with Label</div>
+                        <div class="input-block">
+                            <label class="input-label">Enter your Name</label>
+                            <input type="text" class="input-ele" placeholder="Enter your name here" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa74acb783be0015bbae9a"
+                                style="width: 100%; height: 86px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="text-badge">Error in Input</div>
+                        <div class="input-block">
+                            <input type="text" class="input-ele input-check" placeholder="search" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa74eab783be0015bbae9b"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- ----------footer--------- -->
+        <footer>
+            It is a footer
+        </footer>
+    </div>
+    
+</body>
+</html>
