@@ -63,6 +63,13 @@ main {
     grid-area: main;
 }
 
+.article{
+    padding:0.2rem;
+}
+.article-info{
+    text-align: justify;
+    line-height: 1.5rem;
+}
 footer {
     text-align: center;
     grid-area: footer;
@@ -72,4 +79,3 @@ footer {
     border-top-right-radius: 0.5rem;
 }
 
-/* --------responsiveness------------- */
