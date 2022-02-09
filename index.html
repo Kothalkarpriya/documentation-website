@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://component-library-priya.netlify.app/style.css">
+</head>
+
+<body>
+    <div class="pagewrap">
+        <header class="header">Documentation</header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#avatar" class="nav-item">Avatar</a></li>
+                <li><a href="#alert" class="nav-item">Alert</a></li>
+                <li><a href="#badge" class="nav-item">Badge</a></li>
+                <li><a href="#button" class="nav-item">Button</a></li>
+                <li><a href="#card" class="nav-item">Card</a></li>
+                <li><a href="#image" class="nav-item">Image</a></li>
+                <li><a href="#input" class="nav-item">Input</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- ---avatar component---- -->
+            <section class="section" id="avatar">
+                <header class="section-header">Avatar</header>
+                <article class="container-info">
+                    <div class="info">
+                        <h4>Avatar is used to represent a user or Profile picture. Here we have created different avatar
+                            can be used in website.</h4>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Default Avatar</div>
+                        <p class="article-info">
+                            As a Default Avatar is our square profile picture. We can
+                            keep it as it is or use styling with it.
+                            <br class="line-break">
+                            We used class as <b class="classname"> avatar-image </b>
+                        </p>
+                    </article>
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93b271e1df40015379416"
+                                style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Circular Avatar</div>
+                        <p class="article-info">As a Circular Avatar we are making avatar in round shape. We are using
+                            class as <b class="classname">avatar-image</b> and <b class="classname">round-image</b>.
+                            Using<b class="classname">round-image</b> class image's border radius is set to 50% because
+                            of it changes into circular.
+                            <!-- <br class="line-break"> -->
+                            <b class="classname"></b>
+                        </p>
+                    </article>
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image round-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93b7b1e1df40015379417"
+                                style="width: 100%; height: 151px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Avatar with border</div>
+                        <p class="article-info">
+                            As Avatar with border, we have added a border to the avatar image, as it is adding styling
+                            to our profile picture.
+                            <br class="line-break">
+                            We can add a border to both circular as well as square shapes using the class name <b
+                                class="classname">avatar-image</b> and <b class="classname"> border-image</b> classes.
+                        </p>
+                    </article>
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <div class="image">
+                                <img src="image.jpg" alt="sunset" class="avatar-image border-image" />
+                                <img src="image.jpg" alt="sunset" class="avatar-image round-image border-image" />
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f93be41e1df40015379418"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----------alert component------ -->
+            <section class="section" id="alert">
+                <header class="section-header">Alert</header>
+                <article class="container-info">
+                    <div class="info">
+                        Provide contextual feedback message for typical user actions with the handful of available and
+                        flexible alert messages. We have different alert types as specified below.
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Primary Alert</div>
+                        <p class="article-info">
+                            In Primary ALert we are using class as <b class="classname">msg-alert</b>
+                            <br class="line-break">
+                             IT is a simple and informative message that popped up for the user.
+                            
+                            <!-- <b class="classname"></b> -->
+                        </p>
+                    </article>
+                    <div class="alert-container">
+                        <div class="alert">
+                            <p class="msg-alert">
+                                <i class="material-icons">done</i>
+                                Thank You
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94b731e1df4001537942b"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Success Alert</div>
+                        <p class="article-info">
+                            As a success alert, we have background color as green and a success sign which done symbol used. 
+                            <br class="line-break">
+                            The color and symbol themselves give the message as it is completed/ successful. We used class 
+                            <b class="classname">msg-alert</b>
+                            and <b class="classname">success</b>
+                        </p>
+                    </article>
+                    <div class="alert-container">
+                        <div class="alert">
+                            <p class="msg-alert success">
+                                <i class="material-icons">done</i>
+                                Apps Updated
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94bba1e1df4001537942c"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Warning Alert</div>
+                        <p class="article-info">
+                            As a Warning alert, we have a background color as red and a warning symbol used. The color and symbol themselves give the message as is warning us that the action is undone.
+                            <br class="line-break">
+                            We used class as 
+                            <b class="classname">msg-alert</b> and <b class="classname">danger</b>.
+                        </p>
+                    </article>
+                    <div class="alert-container">
+                        <div class="alert">
+                            <p class="msg-alert danger">
+                                <i class="material-icons">warning</i>
+                                Action can not be Undone
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94c271e1df4001537942d"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Error Alert</div>
+                        <p class="article-info">
+                            As an error alert, we have a background color as yellow and an error symbol used. 
+                            <br class="line-break">
+                            We have used class as
+                            <b class="classname">msg-alert</b> and <b class="classname">error</b>.
+                        </p>
+                    </article>
+                    <div class="alert-container">
+                        <div class="alert">
+                            <p class="msg-alert error">
+                                <i class="material-icons ">error</i>
+                                Check your network connection
+                            </p>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f94c5a1e1df4001537942e"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ------badge component----------- -->
+            <section class="section" id="badge">
+                <header class="section-header">Badge</header>
+                <article class="container-info">
+                    <div class="info">Badges are small count and labelling component. </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Badge on Icons :
+                        </div>
+                        <p class="article-info">
+                            Badge can be used on icons , for that we have to set parent elements position as relative and badge position to be absolute which will keep badge on that icon.
+                            <br class="line-break">
+                            Here we have inclosed badge withing the icon element with class as <b class="classname">badge-on-icon</b>
+                        </p>
+                    </article>
+                    <div class="badge-container">
+                        <div class="badge">
+                            <i class="fa fa-home">
+                                <span class="badge-on-icon">5</span>
+                            </i>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f69bd62df3d500153fb58d"
+                                style="width: 100%; height: 203px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Badge on Avatars :</div>
+                        <p class="article-info">
+                            For Badge on Avatar we have make avatar position as relative and badge position as absolute.
+                            <br class="line-break">
+                            We have used class as
+                            <b class="classname">badge-on-avatar</b>
+                        </p>
+                    </article>
+                    <div class="badge-container">
+                        <div class="badge">
+                            <span class="avatar-img">
+                                <img src="avtar.jpg" alt="Avatar" class="avatar-img" />
+                                <span class="badge-on-avatar">10</span>
+                            </span>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f793d9b50e540015bbadda"
+                                style="width: 100%; height: 164px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ----button component------ -->
+            <section class="section" id="button">
+                <header class="section-header">Button</header>
+                <article class="container-info">
+                    <div class="info">
+                        Button used for actions in forms, dialogs, and more support for multiple sizes, states and more.
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Simple Button</div>
+                        <p class="article-info">
+                            Using a simple Button, the button is used in black and white form with the border as radius 0.2rem which makes it a little curved at the corner of the button.
+                            <br class="line-break">
+                            We use class <b class="classname">btn</b> and type submit with it.t
+                        </p>
+                    </article>
+                    <div class="button-container">
+                        <div class="button">
+                            <button type="submit" class="btn">Simple Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a31ab50e540015bbadfa"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Primary Button: use class <em> primary-btn</em>.
+                        </div>
+                        <p class="article-info">
+                            Using Primary Button, the background is colored using the Primary color of our theme of Website. Here we have used purple background color and text color as white.
+                            <br class="line-break">
+                            We use class <b class="classname">btn</b> and <b class="classname">primary-btn</b>.
+                        </p>
+                    </article>
+                    <div class="button-container">
+                        <div class="button">
+                            <button type="submit" class="btn primary-btn">Primary Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a362b50e540015bbadfb"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Link Button: use class <em>link-btn</em>.
+                        </div>
+                        <p class="article-info">
+                            The link button means the link is enclosed in the button tag, which makes it a link Button. Sometimes we need to direct a user to the other page with the button click, then we use the link button.
+                            <br class="line-break">
+                            We use our <b class="classname">btn </b> and <b class="classname">link-btn</b> class to style it.
+                        </p>
+                    </article>
+                    <div class="button-container">
+                        <div class="button">
+                            <button type="submit" class="btn link-btn"><a href="#" class="link-btn" alt="button">Link
+                                    Button</a></button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a38fb50e540015bbadfc"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Icon with Button: use class <em>icon-btn </em>.
+                        </div>
+                        <p class="article-info">
+                            Here we are using simple button with Icon to show the direct message to the user.
+                            <br class="line-break">
+                            We use class 
+                            <b class="classname">btn</b> and <b class="classname">icon-btn</b>.
+                         </p>
+                    </article>
+                    <div class="button-container">
+                        <div class="button">
+                            <button type="submit" class="btn icon-btn">Icon Button <i class="material-icons">
+                                    send</i></button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a3ddb50e540015bbadfd"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">
+                            Floating Action Button: use class <em>float-btn</em>.
+                        </div>
+                        <p class="article-info">
+                            Floating action means if a user hovers or click on the button it should show some action or click on that button, so we added hover to the button to show float on to the button
+                            <br class="line-break">
+                            We use class
+                            <b class="classname">btn</b> and <b class="classname">float-btn</b> with it.
+                        </p>
+                    </article>
+                    <div class="button-container">
+                        <div class="button">
+                            <button type="submit" class="btn float-btn">Float Button</button>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7a42ab50e540015bbadff"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ---card component---- -->
+            <section class="section" id="card">
+                <header class="section-header">Card</header>
+                <article class="container-info">
+                    <div class="info">
+                        A card is a flexibe and extensible content container. It includes options for headers and footers a wide variety of content, contextual backgroudn-color and powerful display options. 
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Default Card</div>
+                        <p class="article-info">
+                            Default card is made up of little markup and syles as possible, but still manages to deliver a ton of control and customization. Below is an basic card which can contain image, infomation and buttons. 
+                            <br class="line-break">
+                            Here we have image used class as <b class="classname">img</b>, heading text uses <b class="classname">text</b> class, more information which is enclosed inside <b class="classname">para</b> class.
+                            <br class="line-break">
+                            For the card buttons we have used class <b class="classname">card-btn</b> which kepps button on the left side using property justify-content : flex-start.
+                            <br class="line-break">
+                            We have used icons of whishlist, share and more details for card. <b class="classname">card-icons</b> class contains icons and they are placed at the left of the flexbox. Using justify content property by setting it to flex-end.
+                        </p>
+                    </article>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f7c8b2b50e540015bbae40"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Card with Badge</div>
+                        <p class="article-info">
+                            Every card uses the default card structure only some changes are made to make it style in different way.
+                            <br class="line-break">
+                            For card with badge we have to place image and badge in same block and make image position as relative and badge position as absolute. Using justify-content we can place the badge at left, right or center position on to the image.
+                            <br class="line-break">
+                            Using class
+                            <b class="classname">img</b> and <b class="classname">img-badge</b> we have created it.
+                        </p>
+                    </article>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <div class="img-badge">Featured</div>
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f80a9ab50e540015bbae75"
+                                style="width: 100%; height: 476px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Card with text Overlay</div>
+                        <p class="article-info">
+                            Similar to card with badge we have styled card with text too. We just have to place text and image in same block. Define image positio as relative and text position as absolute, justify-content for text flex-end.
+                            <br class="line-break">
+                            By using class
+                            <b class="classname">img</b> and <b class="classname">text-overlay</b> we can implement it.
+                        </p>
+                    </article>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="container">
+                                <div class="image img-text">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <div class="text text-overlay">
+                                        <h2>Sunset In Aurangabad</h2>
+                                        sub-heading
+                                    </div>
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f80d28b50e540015bbae77"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Text only Card </div>
+                        <p class="article-info">
+                            In the text only card we don't have image to style and place. Using class <b class="classname">text</b> , <b class="classname">para</b>, <b class="classname">card-buttons</b> and <b class="classname">card-icons</b> we have created it.
+                            <br class="line-break">
+                        </p>
+                    </article>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="container text-only">
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f81228b50e540015bbae79"
+                                style="width: 100%; height: 424px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Horizontal Card</div>
+                        <p class="article-info">
+                            We have created verticle card yet, now we have Hosrizontal cards, in which we have not included paragraph because it should be minimize card structure.
+                            <br class="line-break">
+                            Using class container as
+                            <b class="classname"> container-horizon</b>to style it in a hosrizontal form, we have divided image and text in a onle side and button and icons on other side.
+                            USing <b class="classname">img-horizon</b>, <b class="classname">text-hosrizon</b> we have reduced their size to be fit in hosrizontal card, for other side we used same classes as before <b class="classname">card-btn</b> and <b class="classname">card-icons</b>.
+                        </p>
+                    </article>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="container-horizon">
+                                <div class="oneside">
+                                    <div class="image">
+                                        <img src="image.jpg" alt="sunset-and-glass-mug" class="img-horizon" />
+                                    </div>
+                                    <div class="text-horizon">
+                                        <h3>Sunset In Aurangabad</h3>
+                                        sub-heading
+                                    </div>
+                                </div>
+                                <div class="other-side">
+                                    <div class="card-buttons">
+                                        <div class="card-btn">
+                                            <button type="submit" class="btn card-btn-items">
+                                                READ
+                                            </button>
+                                            <button type="submit" class="btn card-btn-items">
+                                                BOOKMARK
+                                            </button>
+                                        </div>
+                                        <div class="card-icons">
+                                            <i class="fa fa-heart-o"></i>
+                                            <i class="fa fa-share-alt"></i>
+                                            <i class="fa fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f818e6b50e540015bbae7d"
+                                style="width: 100%; height: 476px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Card with Shadow</div>
+                        <p class="article-info">
+                            We have added shadow to the default card directly using class <b class="classname">shadow-cont</b> and added shadow to the card.  
+                        </p>
+                    </article>
+                    <div class="card-container ">
+                        <div class="card shadow-cont">
+                            <div class="container ">
+                                <div class="image">
+                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                </div>
+                                <div class="text">
+                                    <h2>Sunset In Aurangabad</h2>
+                                    sub-heading
+                                </div>
+                                <div class="para">
+                                    Visit the City of Gates, Historical Place in Maharashtra with your Family.
+                                </div>
+                                <div class="card-buttons">
+                                    <div class="card-btn">
+                                        <button type="submit" class="btn card-btn-items">
+                                            READ
+                                        </button>
+                                        <button type="submit" class="btn card-btn-items">
+                                            BOOKMARK
+                                        </button>
+                                    </div>
+                                    <div class="card-icons">
+                                        <i class="fa fa-heart-o"></i>
+                                        <i class="fa fa-share-alt"></i>
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61f81e54b50e540015bbae82"
+                                style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ---image component------ -->
+            <section class="section" id="image">
+                <header class="section-header">Image</header>
+                <article class="container-info">
+                    <div class="info">
+                        Documentation and examples for opting images into responsive behavior (so they never become larger than their parent elements) and add lightweight styles to them—all via classes.
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Responsive Image</div>
+                        <p class="article-info">
+                            Responsive image means it should be self adjustable as per the screen width. We can make it using width to be set with percentage, it will work best, but sometimes the image can be of different sizing, so we need to add media query for different scrren width. using class <b class="classname">img-feat</b> we have implement it.
+                        </p>
+                    </article>
+                    <div class="image-container">
+                        <div class="image-feature">
+                            <img src="image.jpg" alt="sunset" class="img-feat">
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa1afab783be0015bbae19"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Round Image</div>
+                        <p class="article-info">
+                            For round image we made the border-radius of the iage as 50%, because of it becaomes round in shape. USing class <b class="classname">img-round</b> we did it.
+                        </p>
+                    </article>
+                    <div class="image-container">
+                        <div class="image-feature">
+                            <img src="image.jpg" alt="sunset" class="img-feat img-round">
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa1b28b783be0015bbae1a"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- --input component------ -->
+            <section class="section" id="input">
+                <header class="section-header">Input</header>
+                <article class="container-info">
+                    <div class="info">
+                        Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Textbox </div>
+                        <p class="article-info">
+                            For textbox input we have to use input tag and simply add styling to it. We used <b class="classname">input-ele</b> class.
+                        </p>
+                    </article>
+                    <div class="input-container">
+                        <div class="input-block">
+                            <input class="input-ele" placeholder="Enter your name" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa740fb783be0015bbae98"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Input for password</div>
+                        <p class="article-info">
+                            FOr Password as input we show user the star for every alphabet or number, using type password and class <b class="classname">input-ele</b> we can use it.
+                        </p>
+                    </article>
+                    <div class="input-container">
+                        <div class="input-block">
+                            <input type="password" class="input-ele" placeholder="Enter Password" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa746db783be0015bbae99"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Input with Label</div>
+                        <p class="article-info">
+                            Label is used for scrren readers , whoch is a good practice to have. Using label for input <b class="classname"> input-ele</b> class  we can implement it.
+                        </p>
+                    </article>
+                    <div class="input-container">
+                        <div class="input-block">
+                            <label class="input-label">Enter your Name</label>
+                            <input type="text" class="input-ele" placeholder="Enter your name here" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa74acb783be0015bbae9a"
+                                style="width: 100%; height: 86px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <article class="article">
+                        <div class="text-badge">Error in Input</div>
+                        <p class="article-info">
+                            For input to be checked or to show that the input is wrong, we can show red light or red background from that user will understand that input to be changes. 
+                            Using class <b class="classname">input-check</b> you can implement it.
+                        </p>
+                    </article>
+                    <div class="input-container">
+                        <div class="input-block">
+                            <input type="text" class="input-ele input-check" placeholder="search" />
+                        </div>
+                        <div class="code-container">
+                            <iframe src="https://www.thiscodeworks.com/embed/61fa74eab783be0015bbae9b"
+                                style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- ----------footer--------- -->
+        <footer>
+            It is a footer
+        </footer>
+    </div>
+
+</body>
+
+</html>
