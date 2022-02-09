@@ -360,12 +360,19 @@
             <section class="section" id="card">
                 <header class="section-header">Card</header>
                 <article class="container-info">
-                    <div class="info"></div>
+                    <div class="info">
+                        A card is a flexibe and extensible content container. It includes options for headers and footers a wide variety of content, contextual backgroudn-color and powerful display options. 
+                    </div>
                     <article class="article">
                         <div class="text-badge">Default Card</div>
                         <p class="article-info">
+                            Default card is made up of little markup and syles as possible, but still manages to deliver a ton of control and customization. Below is an basic card which can contain image, infomation and buttons. 
                             <br class="line-break">
-                            <b class="classname"></b>
+                            Here we have image used class as <b class="classname">img</b>, heading text uses <b class="classname">text</b> class, more information which is enclosed inside <b class="classname">para</b> class.
+                            <br class="line-break">
+                            For the card buttons we have used class <b class="classname">card-btn</b> which kepps button on the left side using property justify-content : flex-start.
+                            <br class="line-break">
+                            We have used icons of whishlist, share and more details for card. <b class="classname">card-icons</b> class contains icons and they are placed at the left of the flexbox. Using justify content property by setting it to flex-end.
                         </p>
                     </article>
                     <div class="card-container">
@@ -406,8 +413,12 @@
                     <article class="article">
                         <div class="text-badge">Card with Badge</div>
                         <p class="article-info">
+                            Every card uses the default card structure only some changes are made to make it style in different way.
                             <br class="line-break">
-                            <b class="classname"></b>
+                            For card with badge we have to place image and badge in same block and make image position as relative and badge position as absolute. Using justify-content we can place the badge at left, right or center position on to the image.
+                            <br class="line-break">
+                            Using class
+                            <b class="classname">img</b> and <b class="classname">img-badge</b> we have created it.
                         </p>
                     </article>
                     <div class="card-container">
@@ -449,8 +460,10 @@
                     <article class="article">
                         <div class="text-badge">Card with text Overlay</div>
                         <p class="article-info">
+                            Similar to card with badge we have styled card with text too. We just have to place text and image in same block. Define image positio as relative and text position as absolute, justify-content for text flex-end.
                             <br class="line-break">
-                            <b class="classname"></b>
+                            By using class
+                            <b class="classname">img</b> and <b class="classname">text-overlay</b> we can implement it.
                         </p>
                     </article>
                     <div class="card-container">
@@ -491,8 +504,8 @@
                     <article class="article">
                         <div class="text-badge">Text only Card </div>
                         <p class="article-info">
+                            In the text only card we don't have image to style and place. Using class <b class="classname">text</b> , <b class="classname">para</b>, <b class="classname">card-buttons</b> and <b class="classname">card-icons</b> we have created it.
                             <br class="line-break">
-                            <b class="classname"></b>
                         </p>
                     </article>
                     <div class="card-container">
@@ -530,8 +543,11 @@
                     <article class="article">
                         <div class="text-badge">Horizontal Card</div>
                         <p class="article-info">
+                            We have created verticle card yet, now we have Hosrizontal cards, in which we have not included paragraph because it should be minimize card structure.
                             <br class="line-break">
-                            <b class="classname"></b>
+                            Using class container as
+                            <b class="classname"> container-horizon</b>to style it in a hosrizontal form, we have divided image and text in a onle side and button and icons on other side.
+                            USing <b class="classname">img-horizon</b>, <b class="classname">text-hosrizon</b> we have reduced their size to be fit in hosrizontal card, for other side we used same classes as before <b class="classname">card-btn</b> and <b class="classname">card-icons</b>.
                         </p>
                     </article>
                     <div class="card-container">
@@ -573,8 +589,7 @@
                     <article class="article">
                         <div class="text-badge">Card with Shadow</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            We have added shadow to the default card directly using class <b class="classname">shadow-cont</b> and added shadow to the card.  
                         </p>
                     </article>
                     <div class="card-container ">
@@ -619,12 +634,13 @@
             <section class="section" id="image">
                 <header class="section-header">Image</header>
                 <article class="container-info">
-                    <div class="info"></div>
+                    <div class="info">
+                        Documentation and examples for opting images into responsive behavior (so they never become larger than their parent elements) and add lightweight styles to them—all via classes.
+                    </div>
                     <article class="article">
                         <div class="text-badge">Responsive Image</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            Responsive image means it should be self adjustable as per the screen width. We can make it using width to be set with percentage, it will work best, but sometimes the image can be of different sizing, so we need to add media query for different scrren width. using class <b class="classname">img-feat</b> we have implement it.
                         </p>
                     </article>
                     <div class="image-container">
@@ -639,8 +655,7 @@
                     <article class="article">
                         <div class="text-badge">Round Image</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            For round image we made the border-radius of the iage as 50%, because of it becaomes round in shape. USing class <b class="classname">img-round</b> we did it.
                         </p>
                     </article>
                     <div class="image-container">
@@ -659,16 +674,16 @@
             <section class="section" id="input">
                 <header class="section-header">Input</header>
                 <article class="container-info">
-                    <div class="info"></div>
+                    <div class="info">
+                        Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.
+                    </div>
                     <article class="article">
                         <div class="text-badge">Textbox </div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            For textbox input we have to use input tag and simply add styling to it. We used <b class="classname">input-ele</b> class.
                         </p>
                     </article>
                     <div class="input-container">
-
                         <div class="input-block">
                             <input class="input-ele" placeholder="Enter your name" />
                         </div>
@@ -680,8 +695,7 @@
                     <article class="article">
                         <div class="text-badge">Input for password</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            FOr Password as input we show user the star for every alphabet or number, using type password and class <b class="classname">input-ele</b> we can use it.
                         </p>
                     </article>
                     <div class="input-container">
@@ -696,8 +710,7 @@
                     <article class="article">
                         <div class="text-badge">Input with Label</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            Label is used for scrren readers , whoch is a good practice to have. Using label for input <b class="classname"> input-ele</b> class  we can implement it.
                         </p>
                     </article>
                     <div class="input-container">
@@ -713,8 +726,8 @@
                     <article class="article">
                         <div class="text-badge">Error in Input</div>
                         <p class="article-info">
-                            <br class="line-break">
-                            <b class="classname"></b>
+                            For input to be checked or to show that the input is wrong, we can show red light or red background from that user will understand that input to be changes. 
+                            Using class <b class="classname">input-check</b> you can implement it.
                         </p>
                     </article>
                     <div class="input-container">
