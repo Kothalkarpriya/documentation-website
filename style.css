@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
 :root{
     --back-color: #FFEA00;
     --color:black;
@@ -7,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 .pagewrap {
@@ -73,9 +76,93 @@ main {
 footer {
     text-align: center;
     grid-area: footer;
-    color: var(--color);
+    color: var(--color) ;
     background-color: var(--back-color);
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
+/* 
+@media only screen and (max-width:1000px) {
+    .pagewrap {
+        grid-template-columns: 150px 1fr;
+        grid-template-areas:
+            "header header header"
+            "nav main main"
+            "nav main main"
+            "footer footer footer";
+    }
+}
 
+@media only screen and (max-width: 800px) {
+    .pagewrap {
+        grid-template-columns: 120px 1fr;
+        grid-template-areas:
+            "header header"
+            "nav main"
+            "nav main"
+            "footer footer";
+    }
+/* 
+    #image .img-feat {
+        width: 300px;
+        height: 300px;
+    } */
+/* }
+
+@media only screen and (max-width:600px) {
+    .pagewrap {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "footer";
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .main {
+        margin: 0;
+    }
+/* 
+    #image .img-feat {
+        width: 200px;
+        height: 200px;
+    } */
+/* }
+@media only screen and (max-width:500px) {
+    .pagewrap {
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "footer";
+    }
+
+    .nav {
+        display: none;
+    }
+/* 
+    #image .img-feat {
+        width: 100px;
+        height: 100px;
+    } */
+/* 
+    .container-info {
+        padding: 0;
+    }
+
+    .avatar-container,.alert-container,.badge-container,.button-container,.card-container,.image-container,.input-container {
+        padding: 0;
+        margin: auto;
+        border: none;
+    }
+
+    .alert, .text-badge,.image-feature,.msg-alert,.input-block {
+        padding: 0.5rem;
+    }
+}   */
