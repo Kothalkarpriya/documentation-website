@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
 :root{
     --back-color: #FFEA00;
     --color:black;
@@ -7,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 .pagewrap {
@@ -73,9 +76,8 @@ main {
 footer {
     text-align: center;
     grid-area: footer;
-    color: var(--color);
+    color: var(--color) ;
     background-color: var(--back-color);
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
-
