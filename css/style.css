@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root{
     --back-color: #FFEA00;
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .pagewrap {
@@ -27,7 +27,6 @@ body {
 }
 .section{
     padding: 1rem 0.2rem;
-    /* background-color: var(--text-color); */
     margin-bottom: 1rem;
 }
 .header {
@@ -59,13 +58,21 @@ nav {
 }
 .nav-item {
     text-decoration: none;
-    /* color: var(--background-color); */
     font-size: 1.5rem;
 }
 main {
     grid-area: main;
 }
-
+#navigation .navigation{
+    background-color: var(--back-color);
+    color: var(--color);
+}
+main .contain{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: center;
+}
 .article{
     padding:0.2rem;
 }

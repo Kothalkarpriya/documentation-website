@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="https://component-library-priya.netlify.app/style.css">
+    <link rel="stylesheet" href="https://component-library-priya.netlify.app/css/style.css">
 </head>
 
 <body>
@@ -30,6 +30,8 @@
                 <li><a href="#modal" class="nav-item">Modal</a></li>
                 <li><a href="#rating" class="nav-item">Rating</a></li>
                 <li><a href="#toast" class="nav-item">Toast</a></li>
+                <li><a href="#grid" class="nav-item text-align-center">Grid</a></li>
+                <li><a href="#slider" class="nav-item text-align-center">Slider</a></li>
             </ul>
         </nav>
         <main class="main">
@@ -50,10 +52,16 @@
                             We used class as <b class="classname"> avatar-image </b>
                         </p>
                     </article>
-                    <div class="avatar-container">
-                        <div class="avatar">
+                    <div class="avatar-container ">
+                        <div class="avatar contain">
                             <div class="image">
-                                <img src="image.jpg" alt="sunset" class="avatar-image" />
+                                <img src="/img/image.jpg" alt="sunset" class="avatar-image" />
+                            </div>
+                            <div class="image">
+                                <img src="/img/avtar.jpg" alt="sunset" class="avatar-image" />
+                            </div>
+                            <div class="image">
+                                <img src="/img/exap.jpg" alt="sunset" class="avatar-image" />
                             </div>
                         </div>
                     </div>
@@ -66,9 +74,15 @@
                         </p>
                     </article>
                     <div class="avatar-container">
-                        <div class="avatar">
+                        <div class="avatar contain">
                             <div class="image">
-                                <img src="image.jpg" alt="sunset" class="avatar-image round-image" />
+                                <img src="/img/image.jpg" alt="sunset" class="avatar-image round-image" />
+                            </div>
+                            <div class="image">
+                                <img src="/img/avtar.jpg" alt="sunset" class="avatar-image round-image" />
+                            </div>
+                            <div class="image">
+                                <img src="/img/exap.jpg" alt="sunset" class="avatar-image round-image" />
                             </div>
                         </div>
                     </div>
@@ -85,8 +99,10 @@
                     <div class="avatar-container">
                         <div class="avatar">
                             <div class="image">
-                                <img src="image.jpg" alt="sunset" class="avatar-image border-image" />
-                                <img src="image.jpg" alt="sunset" class="avatar-image round-image border-image" />
+                                <img src="/img/exap.jpg" alt="sunset" class="avatar-image border-image" />
+                                <img src="/img/avtar.jpg" alt="sunset" class="avatar-image round-image border-image" />
+                                <img src="/img/image.jpg" alt="sunset" class="avatar-image round-image border-image" />
+
                             </div>
                         </div>
                     </div>
@@ -111,7 +127,15 @@
                         </p>
                     </article>
                     <div class="alert-container">
-                        <div class="alert">
+                        <div class="alert contain">
+                            <p class="msg-alert">
+                                <i class="material-icons">done</i>
+                                Thank You
+                            </p>
+                            <p class="msg-alert">
+                                <i class="material-icons">done</i>
+                                Welcome
+                            </p>
                             <p class="msg-alert">
                                 <i class="material-icons">done</i>
                                 Thank You
@@ -131,7 +155,15 @@
                         </p>
                     </article>
                     <div class="alert-container">
-                        <div class="alert">
+                        <div class="alert contain">
+                            <p class="msg-alert success">
+                                <i class="material-icons">done</i>
+                                Apps Updated
+                            </p>
+                            <p class="msg-alert success">
+                                <i class="material-icons">done</i>
+                                Apps Updated
+                            </p>
                             <p class="msg-alert success">
                                 <i class="material-icons">done</i>
                                 Apps Updated
@@ -149,7 +181,15 @@
                         </p>
                     </article>
                     <div class="alert-container">
-                        <div class="alert">
+                        <div class="alert contain">
+                            <p class="msg-alert danger">
+                                <i class="material-icons">warning</i>
+                                Action can not be Undone
+                            </p>
+                            <p class="msg-alert danger">
+                                <i class="material-icons">warning</i>
+                                Action can not be Undone
+                            </p>
                             <p class="msg-alert danger">
                                 <i class="material-icons">warning</i>
                                 Action can not be Undone
@@ -166,7 +206,15 @@
                         </p>
                     </article>
                     <div class="alert-container">
-                        <div class="alert">
+                        <div class="alert contain">
+                            <p class="msg-alert error">
+                                <i class="material-icons ">error</i>
+                                Check your network connection
+                            </p>
+                            <p class="msg-alert error">
+                                <i class="material-icons ">error</i>
+                                Check your network connection
+                            </p>
                             <p class="msg-alert error">
                                 <i class="material-icons ">error</i>
                                 Check your network connection
@@ -196,7 +244,13 @@
                         </p>
                     </article>
                     <div class="badge-container">
-                        <div class="badge">
+                        <div class="badge contain">
+                            <i class="fa fa-home">
+                                <span class="badge-on-icon">5</span>
+                            </i>
+                            <i class="fa fa-home">
+                                <span class="badge-on-icon">5</span>
+                            </i>
                             <i class="fa fa-home">
                                 <span class="badge-on-icon">5</span>
                             </i>
@@ -213,9 +267,17 @@
                         </p>
                     </article>
                     <div class="badge-container">
-                        <div class="badge">
+                        <div class="badge contain">
                             <span class="avatar-img">
-                                <img src="avtar.jpg" alt="Avatar" class="avatar-img" />
+                                <img src="/img/avtar.jpg" alt="Avatar" class="avatar-img" />
+                                <span class="badge-on-avatar text-align-center">10</span>
+                            </span>
+                            <span class="avatar-img">
+                                <img src="/img/exap.jpg" alt="Avatar" class="avatar-img" />
+                                <span class="badge-on-avatar text-align-center">10</span>
+                            </span>
+                            <span class="avatar-img">
+                                <img src="/img/image.jpg" alt="Avatar" class="avatar-img" />
                                 <span class="badge-on-avatar text-align-center">10</span>
                             </span>
                         </div>
@@ -241,7 +303,9 @@
                         </p>
                     </article>
                     <div class="button-container">
-                        <div class="button">
+                        <div class="button contain">
+                            <button type="submit" class="btn">Simple Button</button>
+                            <button type="submit" class="btn">Simple Button</button>
                             <button type="submit" class="btn">Simple Button</button>
                         </div>
                     </div>
@@ -257,7 +321,9 @@
                         </p>
                     </article>
                     <div class="button-container">
-                        <div class="button">
+                        <div class="button contain">
+                            <button type="submit" class="btn primary-btn">Primary Button</button>
+                            <button type="submit" class="btn primary-btn">Primary Button</button>
                             <button type="submit" class="btn primary-btn">Primary Button</button>
                         </div>
                     </div>
@@ -275,9 +341,19 @@
                         </p>
                     </article>
                     <div class="button-container">
-                        <div class="button">
-                            <button type="submit" class="btn link-btn"><a href="#" class="link-btn" alt="button">Link
-                                    Button</a></button>
+                        <div class="button contain">
+                            <button type="submit" class="btn link-btn">
+                                <a href="#" class="link-btn" alt="button">Link
+                                    Button</a>
+                            </button>
+                            <button type="submit" class="btn link-btn">
+                                <a href="#" class="link-btn" alt="button">Link
+                                    Button</a>
+                            </button>
+                            <button type="submit" class="btn link-btn">
+                                <a href="#" class="link-btn" alt="button">Link
+                                    Button</a>
+                            </button>
                         </div>
                     </div>
                     <article class="article">
@@ -292,7 +368,11 @@
                         </p>
                     </article>
                     <div class="button-container">
-                        <div class="button">
+                        <div class="button contain">
+                            <button type="submit" class="btn icon-btn">Icon Button <i class="material-icons">
+                                    send</i></button>
+                            <button type="submit" class="btn icon-btn">Icon Button <i class="material-icons">
+                                    send</i></button>
                             <button type="submit" class="btn icon-btn">Icon Button <i class="material-icons">
                                     send</i></button>
                         </div>
@@ -310,7 +390,9 @@
                         </p>
                     </article>
                     <div class="button-container">
-                        <div class="button">
+                        <div class="button contain">
+                            <button type="submit" class="btn float-btn">Float Button</button>
+                            <button type="submit" class="btn float-btn">Float Button</button>
                             <button type="submit" class="btn float-btn">Float Button</button>
                         </div>
                     </div>
@@ -349,7 +431,7 @@
                         <div class="card">
                             <div class="container">
                                 <div class="image">
-                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <img src="/img/image.jpg" alt="sunset-and-glass-mug" class="img" />
                                 </div>
                                 <div class="text">
                                     <h2>Sunset In Aurangabad</h2>
@@ -394,7 +476,7 @@
                         <div class="card">
                             <div class="container">
                                 <div class="image">
-                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <img src="/img/image.jpg" alt="sunset-and-glass-mug" class="img" />
                                     <div class="img-badge">Featured</div>
                                 </div>
                                 <div class="text">
@@ -437,7 +519,7 @@
                         <div class="card">
                             <div class="container">
                                 <div class="image img-text">
-                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <img src="/img/image.jpg" alt="sunset-and-glass-mug" class="img" />
                                     <div class="text text-overlay">
                                         <h2>Sunset In Aurangabad</h2>
                                         sub-heading
@@ -520,7 +602,7 @@
                             <div class="container-horizon">
                                 <div class="oneside">
                                     <div class="image">
-                                        <img src="image.jpg" alt="sunset-and-glass-mug" class="img-horizon" />
+                                        <img src="/img/image.jpg" alt="sunset-and-glass-mug" class="img-horizon" />
                                     </div>
                                     <div class="text-horizon">
                                         <h3>Sunset In Aurangabad</h3>
@@ -558,7 +640,7 @@
                         <div class="card shadow-cont">
                             <div class="container ">
                                 <div class="image">
-                                    <img src="image.jpg" alt="sunset-and-glass-mug" class="img" />
+                                    <img src="/img/image.jpg" alt="sunset-and-glass-mug" class="img" />
                                 </div>
                                 <div class="text">
                                     <h2>Sunset In Aurangabad</h2>
@@ -607,7 +689,7 @@
                     </article>
                     <div class="image-container">
                         <div class="image-feature">
-                            <img src="image.jpg" alt="sunset" class="img-feat">
+                            <img src="/img/image.jpg" alt="sunset" class="img-feat" />
                         </div>
                     </div>
                     <article class="article">
@@ -619,7 +701,7 @@
                     </article>
                     <div class="image-container">
                         <div class="image-feature">
-                            <img src="image.jpg" alt="sunset" class="img-feat img-round">
+                            <img src="/img/image.jpg" alt="sunset" class="img-feat img-round" />
                         </div>
                     </div>
                 </article>
@@ -643,7 +725,8 @@
                         </p>
                     </article>
                     <div class="input-container">
-                        <div class="input-block">
+                        <div class="input-block contain">
+                            <input class="input-ele text-align-center" placeholder="Enter your name" />
                             <input class="input-ele text-align-center" placeholder="Enter your name" />
                         </div>
                     </div>
@@ -655,7 +738,8 @@
                         </p>
                     </article>
                     <div class="input-container">
-                        <div class="input-block">
+                        <div class="input-block contain">
+                            <input type="password" class="input-ele text-align-center" placeholder="Enter Password" />
                             <input type="password" class="input-ele text-align-center" placeholder="Enter Password" />
                         </div>
                     </div>
@@ -669,7 +753,7 @@
                     <div class="input-container">
                         <div class="input-block">
                             <label class="input-label">Enter your Name</label>
-                            <input type="text" class="input-ele text-align-center"  placeholder="Enter your name here" />
+                            <input type="text" class="input-ele text-align-center" placeholder="Enter your name here" />
                         </div>
                     </div>
                     <article class="article">
