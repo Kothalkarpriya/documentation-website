@@ -25,13 +25,9 @@ body {
         "nav main main"
         "footer footer footer";
 }
-.section{
-    padding: 1rem 0.2rem;
-    margin-bottom: 1rem;
-}
-.header {
+.doc .header {
     grid-area: header;
-    position:sticky;
+    position:relative;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
@@ -42,8 +38,10 @@ body {
     background-color: var(--back-color) !important;
 }
 
-nav {
+.doc .nav {
     grid-area: nav;
+    position:relative;
+    margin: 0;
 }
 .nav-list {
     list-style: none;
@@ -73,6 +71,13 @@ main .contain{
     gap:1rem;
     justify-content: center;
 }
+.doc main{
+    margin:1rem;
+}
+.doc .main .section{
+    padding:1rem 0;
+}
+
 .article{
     padding:0.2rem;
 }
@@ -80,7 +85,7 @@ main .contain{
     text-align: justify;
     line-height: 1.5rem;
 }
-footer {
+.doc footer {
     text-align: center;
     grid-area: footer;
     color: var(--color) ;
