@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root{
     --back-color: #FFEA00;
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .pagewrap {
@@ -25,14 +25,9 @@ body {
         "nav main main"
         "footer footer footer";
 }
-.section{
-    padding: 1rem 0.2rem;
-    /* background-color: var(--text-color); */
-    margin-bottom: 1rem;
-}
-.header {
+.doc .header {
     grid-area: header;
-    position:sticky;
+    position:relative;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
@@ -43,8 +38,10 @@ body {
     background-color: var(--back-color) !important;
 }
 
-nav {
+.doc .nav {
     grid-area: nav;
+    position:relative;
+    margin: 0;
 }
 .nav-list {
     list-style: none;
@@ -59,11 +56,26 @@ nav {
 }
 .nav-item {
     text-decoration: none;
-    /* color: var(--background-color); */
     font-size: 1.5rem;
 }
 main {
     grid-area: main;
+}
+#navigation .navigation{
+    background-color: var(--back-color);
+    color: var(--color);
+}
+main .contain{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: center;
+}
+.doc main{
+    margin:1rem;
+}
+.doc .main .section{
+    padding:1rem 0;
 }
 
 .article{
@@ -73,7 +85,7 @@ main {
     text-align: justify;
     line-height: 1.5rem;
 }
-footer {
+.doc footer {
     text-align: center;
     grid-area: footer;
     color: var(--color) ;
